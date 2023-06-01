@@ -41,7 +41,7 @@ struct InstagramTabApp: View {
                 .tag(3)
                 .toolbarBackground(Color.theme.background, for: .tabBar)
             
-            Text("profile")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person")
                 }
@@ -59,3 +59,4 @@ struct InstagramTabApp_Previews: PreviewProvider {
         InstagramTabApp()
     }
 }
+
