@@ -1,0 +1,23 @@
+{
+    "login" :
+    {
+        "token": "AfArarFAE12@#AafaFA12ASDA13445DAD!!#!@$FSasdaADAFadfasdaERARAFAdada",
+
+        "user": {
+            "username": "mauricio_osewoot",
+            "name": "Mauricio Ose Woot",
+            "email": "osewoot@ose.com",
+            "hasStoriesUnwatched": false
+        },
+        "posts": [
+            {
+            "imageURL": "https://www.masslive.com/resizer/9ixAX-miY2rzbgQjF0iyIrj0QUM=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/W5HI6Y4DINDTNP76R6CLA5IWRU.jpeg",
+            "description": "always smiling!! 😃",
+            "date": "10/02/2022",
+            "comments": [],
+            "likes": ["","","","","","","","","","","","","","",""]
+            }
+        ]
+    }
+    
+}

@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct InstagramAppApp: App {
+    
+    @StateObject var loginVM = LoginViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if loginVM.userLogged == nil {
+                LoginView()
+                    .environmentObject(loginVM)
+            } else {
+                InstagramTabApp()
+                    .environmentObject(loginVM)
+            }
         }
     }
 }
